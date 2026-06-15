@@ -1,0 +1,42 @@
+# Build output
+bin/
+obj/
+out/
+
+# Visual Studio / Rider
+.vs/
+.idea/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Rider
+.idea/
+
+# NuGet
+*.nupkg
+*.snupkg
+packages/
+!packages/repositories.config
+.nuget/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# dotnet publish
+publish/
+
+# OS
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+
+# Logs & crash dumps
+*.log
+*.mdmp
+*.dmp
+
+# User config (AppData, not source-controlled)
+# The app writes config to %AppData%\Winspace — nothing in the repo to ignore here
